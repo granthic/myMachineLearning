@@ -1,0 +1,45 @@
+{"intents": [
+     {"tag": "greeting",
+     "patterns": ["my name is (.*)"],
+     "responses": ["Hello %1, How are you today ?,Hi there, how can I help?"],
+     "context_set": ""
+    },   
+     {"tag": "greeting",
+     "patterns": ["(.*) created ?"],
+     "responses": ["XXYY created me using Python's NLTK library ","top secret ;)"],
+     "context_set": ""
+    },
+    {"tag": "greeting",
+        "patterns": ["hi|hey|hello"],
+        "responses": ["Hello", "Hey there","how you doing?"],
+        "context_set": ""
+       },
+       {"tag": "greeting",
+        "patterns": ["(.*)raining in (.*)"],
+        "responses": ["No rain since last week here in %2","Damn its raining too much here in %2"],
+        "context_set": ""
+       },
+       {
+        "tag": "greeting",
+        "patterns": ["(.*) comfort (.*) bug"],
+        "responses": ["You console it."],
+        "context_set": ""
+      },
+         {"tag": "greeting",
+        "patterns": ["(.*) (sports|game) ?"],
+        "responses": ["I'm a very big fan of Football","games that people play on console"],
+        "context_set": ""
+       },
+       {"tag": "greeting",
+        "patterns": ["fine (.*) you ?"],
+        "responses": ["whats new?","go on ask question?","I dont think it valid, do you?"],
+        "context_set": ""
+       },
+       {"tag": "greeting",
+        "patterns": ["what is your name ?"],
+        "responses": ["My name is Chatty and I'm a chatbot ? ","top secret ;)","What is in the name !!"],
+        "context_set": ""
+       }
+    
+]
+}
